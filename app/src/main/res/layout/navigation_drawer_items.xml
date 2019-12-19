@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="0dp"
+    android:layout_width="0dp">
+
+    <group
+        android:id= "@+id/group1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/settings"/>
+    </group>
+
+    <group
+        android:id= "@+id/group2">
+
+        <item
+            android:id="@+id/agreement"
+            android:icon="@drawable/ic_agreement"
+            android:title="@string/agreement">
+        </item>
+    </group>
+
+</menu>
